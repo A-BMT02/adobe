@@ -16,26 +16,26 @@ export const IconRow = () => {
       <Search />
 
       <div className="flex space-x-6 items-center pr-6 ">
-        <img src={heart} />
-        <img src={cart} />
+        <img className="cursor-pointer" src={heart} />
+        <img className="cursor-pointer" src={cart} />
         <div className="flex items-center space-x-1">
-          <p className="text-tgray">EN</p>
+          <p className="text-tgray cursor-pointer">EN</p>
           <img className="w-2 h-1" src={down} />
         </div>
         <div className="flex items-center space-x-1">
-          <p className="text-tgray">UAE</p>
-          <img src={down} />
+          <p className="text-tgray cursor-pointer">UAE</p>
+          <img className="cursor-pointer" src={down} />
         </div>
         {!showSidebar ? (
           <img
-            className="md:hidden z-50"
+            className="md:hidden z-50 cursor-pointer"
             onClick={(e) => setShowSidebar(true)}
             src={dropdown}
           />
         ) : (
           <p
             onClick={(e) => setShowSidebar(false)}
-            className="text-4xl z-50 fixed top-5 right-5 text-white"
+            className="text-4xl z-50 fixed top-5 right-5 text-white cursor-pointer"
           >
             X
           </p>

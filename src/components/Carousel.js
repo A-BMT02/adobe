@@ -6,7 +6,7 @@ import back from "../images/back.png";
 
 export const Carousel = () => {
   const ref = useRef(null);
-  const [target, setTarget] = useState(0);
+  const [target, setTarget] = useState();
 
   const next = () => {
     console.log("here");

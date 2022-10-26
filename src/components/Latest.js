@@ -49,7 +49,7 @@ export const Latest = () => {
         >
           {/* first */}
           <div className="w-full flex justify-between space-x-10 items-center px-10">
-            <div className="" onClick={(e) => previous()}>
+            <div className="cursor-pointer" onClick={(e) => previous()}>
               <img src={back} />
             </div>
             <div className="relative">
@@ -62,7 +62,7 @@ export const Latest = () => {
                 </p>
                 <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
                   <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180" src={back} />
+                  <img className="rotate-180 cursor-pointer" src={back} />
                 </div>
               </div>
             </div>
@@ -75,22 +75,22 @@ export const Latest = () => {
                 <p className="text-white text-xl w-[150px] text-black">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
+                <div className="cursor-pointer flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
                   <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180" src={back} />
+                  <img className="rotate-180 " src={back} />
                 </div>
               </div>
             </div>
 
             <div onClick={(e) => next()}>
-              <img className="rotate-180" src={back} />
+              <img className="cursor-pointer rotate-180" src={back} />
             </div>
           </div>
 
           {/* second */}
           <div className="w-full flex justify-between space-x-10 items-center px-10">
             <div onClick={(e) => previous()}>
-              <img src={back} />
+              <img className="cursor-pointer" src={back} />
             </div>
             <div className="relative">
               <div className="w-[500px] max-w-[500px]">
@@ -102,7 +102,7 @@ export const Latest = () => {
                 </p>
                 <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
                   <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180" src={back} />
+                  <img className="rotate-180 cursor-pointer" src={back} />
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export const Latest = () => {
                 </p>
                 <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
                   <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180" src={back} />
+                  <img className="rotate-180 cursor-pointer" src={back} />
                 </div>
               </div>
             </div>

@@ -83,9 +83,9 @@ export const Category = () => {
           </div>
           <div className="absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 flex flex-col justify-center items-center space-y-6">
             <p className="text-white text-3xl font-bold">Outwear</p>
-            <div className="flex space-x-6 items-center bg-opink px-3 py-2 pl-8 text-white rounded-3xl">
+            <div className="cursor-pointer flex space-x-6 items-center bg-opink px-3 py-2 pl-8 text-white rounded-3xl">
               <p className="text-">SEE MORE</p>
-              <img className="rotate-180 w-10" src={back} />
+              <img className="cursor-pointer rotate-180 w-10" src={back} />
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ export const Category = () => {
 
       <div className="flex justify-center space-x-10 items-center px-10">
         <div onClick={(e) => previous()}>
-          <img src={back} />
+          <img className="cursor-pointer" src={back} />
         </div>
         <div className="w-full overflow-hidden">
           <div
@@ -260,7 +260,7 @@ export const Category = () => {
         </div>
 
         <div onClick={(e) => next()}>
-          <img className="rotate-180" src={back} />
+          <img className="rotate-180 cursor-pointer" src={back} />
         </div>
       </div>
 
@@ -271,7 +271,7 @@ export const Category = () => {
 
         <div className="flex justify-center space-x-10 items-center px-10 w-full">
           <div onClick={(e) => previous2()}>
-            <img src={back} />
+            <img className="cursor-pointer" src={back} />
           </div>
           <div className="w-full overflow-hidden">
             <div
@@ -438,7 +438,7 @@ export const Category = () => {
           </div>
 
           <div onClick={(e) => next2()}>
-            <img className="rotate-180" src={back} />
+            <img className="cursor-pointer rotate-180" src={back} />
           </div>
         </div>
       </div>
