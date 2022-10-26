@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Search } from "./Search";
 import heart from "../images/heart.png";
 import cart from "../images/cart.png";
 import dropdown from "../images/dropdown.png";
 import down from "../images/down.png";
+import { MobileSidebar } from "./MobileSidebar";
 
 export const IconRow = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
   return (
     <div className="flex justify-between pt-4 pb-4">
+      <MobileSidebar showSidebar={showSidebar} />
       <div></div>
       <Search />
 
@@ -22,7 +26,20 @@ export const IconRow = () => {
           <p className="text-tgray">UAE</p>
           <img src={down} />
         </div>
-        <img src={dropdown} />
+        {!showSidebar ? (
+          <img
+            className="md:hidden z-50"
+            onClick={(e) => setShowSidebar(true)}
+            src={dropdown}
+          />
+        ) : (
+          <p
+            onClick={(e) => setShowSidebar(false)}
+            className="text-4xl z-50 fixed top-5 right-5 text-white"
+          >
+            X
+          </p>
+        )}
       </div>
     </div>
   );

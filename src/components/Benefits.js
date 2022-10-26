@@ -13,7 +13,7 @@ export const Benefits = () => {
         <div className="bg-opink w-[70px] h-[8px] rounded-xl "></div>
       </div>
 
-      <div className="flex justify-center space-x-10 items-center px-10 bg-ogray px-10 py-10">
+      <div className="flex flex-col w-full max-w-[500px] lg:w-none lg:max-w-none space-y-10 lg:space-y-0 lg:flex-row justify-center lg:space-x-10 items-center px-10 bg-ogray px-10 py-10">
         <div className="flex space-x-6 items-center">
           <img src={truck} />
           <div className="flex flex-col space-y-2">
