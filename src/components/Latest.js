@@ -47,90 +47,84 @@ export const Latest = () => {
           className="flex transition-all duration-1000"
           style={{ width: `${200}%` }}
         >
-          <div className="w-[500px] max-w-[500px]">
-            <img className="" src={girl2} />
-          </div>
-          <div className="w-[500px] max-w-[500px]">
-            <img className="" src={girl2} />
-          </div>
-        </div>
-        {/* first */}
-        <div className="flex justify-between space-x-10 items-center px-10">
-          <div onClick={(e) => previous()}>
-            <img src={back} />
-          </div>
-          <div className="relative">
-            <div className="w-[500px] max-w-[500px]">
-              <img className="" src={girl2} />
+          {/* first */}
+          <div className="w-full flex justify-between space-x-10 items-center px-10">
+            <div className="" onClick={(e) => previous()}>
+              <img src={back} />
             </div>
-            <div className="absolute flex flex-col space-y-10 top-16 left-12">
-              <p className="text-white text-xl w-[150px]">
-                For all your summer clothing needs
-              </p>
-              <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                <p className="text-sm">SEE MORE</p>
-                <img className="rotate-180" src={back} />
+            <div className="relative">
+              <div className="w-[500px] max-w-[500px]">
+                <img className="" src={girl2} />
+              </div>
+              <div className="absolute flex flex-col space-y-10 top-16 left-12">
+                <p className="text-white text-xl w-[150px]">
+                  For all your summer clothing needs
+                </p>
+                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
+                  <p className="text-sm">SEE MORE</p>
+                  <img className="rotate-180" src={back} />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="relative">
-            <div className="w-[500px] max-w-[500px]">
-              <img className="" src={girl3} />
-            </div>
-            <div className="absolute flex flex-col space-y-10 top-16 left-12">
-              <p className="text-white text-xl w-[150px] text-black">
-                For all your summer clothing needs
-              </p>
-              <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                <p className="text-sm">SEE MORE</p>
-                <img className="rotate-180" src={back} />
+            <div className="relative">
+              <div className="w-[500px] max-w-[500px]">
+                <img className="" src={girl3} />
+              </div>
+              <div className="absolute flex flex-col space-y-10 top-16 left-12">
+                <p className="text-white text-xl w-[150px] text-black">
+                  For all your summer clothing needs
+                </p>
+                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
+                  <p className="text-sm">SEE MORE</p>
+                  <img className="rotate-180" src={back} />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div onClick={(e) => next()}>
-            <img className="rotate-180" src={back} />
-          </div>
-        </div>
-
-        {/* second */}
-        <div className="flex justify-between space-x-10 items-center px-10">
-          <div onClick={(e) => previous()}>
-            <img src={back} />
-          </div>
-          <div className="relative">
-            <div className="w-[500px] max-w-[500px]">
-              <img className="" src={girl2} />
+            <div onClick={(e) => next()}>
+              <img className="rotate-180" src={back} />
             </div>
-            <div className="absolute flex flex-col space-y-10 top-16 left-12">
-              <p className="text-white text-xl w-[150px]">
-                For all your summer clothing needs
-              </p>
-              <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                <p className="text-sm">SEE MORE</p>
-                <img className="rotate-180" src={back} />
+          </div>
+
+          {/* second */}
+          <div className="w-full flex justify-between space-x-10 items-center px-10">
+            <div onClick={(e) => previous()}>
+              <img src={back} />
+            </div>
+            <div className="relative">
+              <div className="w-[500px] max-w-[500px]">
+                <img className="" src={girl2} />
+              </div>
+              <div className="absolute flex flex-col space-y-10 top-16 left-12">
+                <p className="text-white text-xl w-[150px]">
+                  For all your summer clothing needs
+                </p>
+                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
+                  <p className="text-sm">SEE MORE</p>
+                  <img className="rotate-180" src={back} />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="relative">
-            <div className="w-[500px] max-w-[500px]">
-              <img className="" src={girl3} />
-            </div>
-            <div className="absolute flex flex-col space-y-10 top-16 left-12">
-              <p className="text-white text-xl w-[150px] text-black">
-                For all your summer clothing needs
-              </p>
-              <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                <p className="text-sm">SEE MORE</p>
-                <img className="rotate-180" src={back} />
+            <div className="relative">
+              <div className="w-[500px] max-w-[500px]">
+                <img className="" src={girl3} />
+              </div>
+              <div className="absolute flex flex-col space-y-10 top-16 left-12">
+                <p className="text-white text-xl w-[150px] text-black">
+                  For all your summer clothing needs
+                </p>
+                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
+                  <p className="text-sm">SEE MORE</p>
+                  <img className="rotate-180" src={back} />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div onClick={(e) => next()}>
-            <img className="rotate-180" src={back} />
+            <div onClick={(e) => next()}>
+              <img className="rotate-180" src={back} />
+            </div>
           </div>
         </div>
       </div>
