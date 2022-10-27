@@ -7,10 +7,9 @@ import { Why } from "./components/Why";
 import { Benefits } from "./components/Benefits";
 import { Latest } from "./components/Latest";
 import { Category } from "./components/Category";
-import { Testimonial } from "./components/testimonial";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
-
+import { Testimonials } from "./components/Testimonials";
 function App() {
   return (
     <div className="flex flex-col font-poppins ">
@@ -23,7 +22,7 @@ function App() {
         <Benefits />
         <Latest />
         <Category />
-        <Testimonial />
+        <Testimonials />
         <Banner />
         <Footer />
       </div>
