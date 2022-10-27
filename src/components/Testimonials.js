@@ -23,7 +23,7 @@ export const Testimonials = () => {
       <div className="hidden xl:block absolute -top-5 -right-36">
         <img className="w-[250px]" src={circle2} />
       </div>
-      <div className="xl:absolute xl:top-32 flex flex-col xl:flex-row space-y-20 xl:space-y-0 w-full justify-center">
+      <div className="xl:absolute xl:top-32 flex flex-col xl:flex-row space-y-20 xl:space-y-0 w-full justify-center px-5 md:px-0">
         <div className=" xl:absolute top-28 left-8">
           <Card picture={testimonialPic2} small={true} />
         </div>
