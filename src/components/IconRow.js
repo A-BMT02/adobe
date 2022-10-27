@@ -19,11 +19,11 @@ export const IconRow = () => {
         <img className="hidden md:inline cursor-pointer" src={heart} />
         <img className="hidden md:inline cursor-pointer" src={cart} />
         <div className="flex items-center space-x-1">
-          <p className="text-tgray cursor-pointer">EN</p>
+          <p className=" cursor-pointer">EN</p>
           <img className="w-2 h-1" src={down} />
         </div>
         <div className="flex items-center space-x-1">
-          <p className="text-tgray cursor-pointer">UAE</p>
+          <p className=" cursor-pointer">UAE</p>
           <img className="cursor-pointer" src={down} />
         </div>
         {!showSidebar ? (

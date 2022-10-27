@@ -60,7 +60,7 @@ export const Latest = () => {
                 <img className="" src={girl2} />
               </div>
               <div className="absolute flex flex-col space-y-4 md:space-y-10 top-12 md:top-16 left-6 md:left-12">
-                <p className="text-white text-md md:text-xl w-[150px]">
+                <p className="text-white text-md md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
                 <div className="flex space-x-2 justify-center md:justify-start md:space-x-6 items-center bg-opink px-3  text-white rounded-3xl">
@@ -78,7 +78,7 @@ export const Latest = () => {
                 <img className="" src={girl3} />
               </div>
               <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px] text-black">
+                <p className="text-white text-xl w-[150px] text-black font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
                 <div className="cursor-pointer flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
@@ -106,7 +106,7 @@ export const Latest = () => {
                 <img className="" src={girl2} />
               </div>
               <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px]">
+                <p className="text-white text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
                 <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
@@ -121,7 +121,7 @@ export const Latest = () => {
                 <img className="" src={girl3} />
               </div>
               <div className="absolute flex flex-col space-y-4 md:space-y-10 top-12 md:top-16 left-6 md:left-12">
-                <p className="text-white text-md md:text-xl w-[150px]">
+                <p className="text-white text-md md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
                 <div className="flex space-x-2 justify-center md:justify-start md:space-x-6 items-center bg-opink px-3  text-white rounded-3xl">

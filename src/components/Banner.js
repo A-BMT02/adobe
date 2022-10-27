@@ -12,7 +12,7 @@ export const Banner = () => {
         <div className="flex flex-col lg:flex-row justify-around lg:justify-between items-center w-full">
           <div className="flex space-x-0 md:space-x-5 items-center ">
             <div className="hidden lg:block bg-dblue px-10 py-4 rounded-r-3xl">
-              <p className="text-3xl text-white">-10%</p>
+              <p className="text-4xl text-white font-bold">-10%</p>
             </div>
 
             <p className="text-white text-center lg:text-left lg:mt-0 w-full max-w-[400px] lg:w-3/4 lg:max-w-[350px] text-sm md:text-2xl ">
@@ -28,7 +28,7 @@ export const Banner = () => {
               />
             </div>
             <div className="bg-dblue px-2 md:px-6 py-1 md:py-3  lg:w-[180px] rounded-2xl text-xs">
-              <p className="text-xs">Get your discount</p>
+              <p className="text-xs font-bold">Get your discount</p>
             </div>
           </div>
         </div>

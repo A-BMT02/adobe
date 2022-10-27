@@ -9,10 +9,10 @@ import appStore from "../images/appStore.png";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col items-center text-gray-500">
-      <div className="mt-10 bg-ogray flex flex-col w-full md:flex-row justify-around pl-10 lg:p-20 text-xs space-x-0 md:space-x-4 lg:space-x-20 space-y-6 md:space-y-0  ">
+    <div className="flex flex-col items-center">
+      <div className="bg-fgray flex flex-col w-full md:flex-row justify-around pl-10 lg:p-20 text-xs space-x-0 md:space-x-4 lg:space-x-20 space-y-6 md:space-y-0  ">
         <div className="hidden md:flex flex-col space-y-10 justify-center">
-          <p>
+          <p className="text-[#808080]">
             House My Brand designs clothing for the young, the old & everyone in
             between - but most importantly, for the fashionable
           </p>

@@ -78,10 +78,10 @@ export const Category = () => {
           <div className="bg-opink w-[50px] h-[8px] rounded-xl "></div>
         </div>
         <div className="relative w-full ">
-          <div className="h-[300px] md:h-[450px] md:max-h-[450px] max-h-[300px] md:h-[450px] md:max-h-[450px] flex justify-center">
+          <div className="h-[200px] md:h-[300px] md:max-h-[300px] max-h-[200px] md:h-[350px] md:max-h-[350px] flex justify-center">
             <img
               src={outwear}
-              className="h-[300px] md:h-[450px] md:max-h-[450px] max-h-[300px] md:h-[450px] md:max-h-[450px] object-cover w-4/5 "
+              className=" rounded-2xl h-[200px] md:h-[350px] md:max-h-[350px] max-h-[200px] md:h-[350px] md:max-h-[350px] object-cover w-4/5 "
             />
           </div>
           <div className="absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 flex flex-col justify-center items-center space-y-6">
@@ -112,9 +112,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -127,9 +129,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -142,9 +146,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -157,9 +163,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -172,9 +180,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -190,9 +200,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -205,9 +217,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -220,9 +234,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -235,9 +251,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -250,9 +268,11 @@ export const Category = () => {
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col space-y-2">
-                    <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                    <div className="flex space-x-2">
-                      <p className="text-opink">$119.99</p>
+                    <p className="text-tgray font-bold">
+                      Loose Knit 3/4 Sleeve
+                    </p>
+                    <div className="flex space-x-2 items-center">
+                      <p className="text-xl font-bold">$119.99</p>
                       <del className="text-tgray">$149.99</del>
                     </div>
                   </div>
@@ -271,7 +291,7 @@ export const Category = () => {
       </div>
 
       <div className="flex flex-col space-y-10 bg-opink px-5  py-14 items-center">
-        <p className="text-white text-2xl md:text-3xl  text-center md:self-start md:ml-20">
+        <p className="text-white text-xl md:text-2xl  text-center md:self-start md:ml-20">
           The world's finest models
         </p>
 
@@ -293,9 +313,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -308,9 +330,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -323,9 +347,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -338,9 +364,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -353,9 +381,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -370,9 +400,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -385,9 +417,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -400,9 +434,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -415,9 +451,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>
@@ -430,9 +468,11 @@ export const Category = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex flex-col space-y-2">
-                      <p className="text-tgray">Loose Knit 3/4 Sleeve</p>
-                      <div className="flex space-x-2">
-                        <p className="text-opink">$119.99</p>
+                      <p className="text-tgray font-bold">
+                        Loose Knit 3/4 Sleeve
+                      </p>
+                      <div className="flex space-x-2 items-center">
+                        <p className="text-opink text-lg">$119.99</p>
                         <del className="text-tgray">$149.99</del>
                       </div>
                     </div>

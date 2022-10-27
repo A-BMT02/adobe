@@ -5,7 +5,7 @@ export const Card = ({ picture, small }) => {
   return (
     <div className="flex justify-center xl:mt-20 xl:mb-44">
       <div
-        className={`relative flex flex-col border-2 bg-white px-5 md:px-24 rounded-xl border-opink border-dotted items-center  md:w-[550px] ${
+        className={`relative flex flex-col border-2 bg-white px-5 md:px-24 rounded-xl border-opink items-center  md:w-[550px] ${
           small ? "space-y-4" : "space-y-6"
         }`}
       >
@@ -34,7 +34,7 @@ export const Card = ({ picture, small }) => {
         </div>
         <div>
           <p
-            className={`text-center mb-6 leading-6 ${
+            className={`text-center mb-6 leading-8 ${
               small ? "text-xs " : "text-sm"
             }`}
           >
