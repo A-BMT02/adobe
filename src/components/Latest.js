@@ -48,26 +48,32 @@ export const Latest = () => {
           style={{ width: `${200}%` }}
         >
           {/* first */}
-          <div className="w-full flex justify-between space-x-10 items-center px-10">
-            <div className="cursor-pointer" onClick={(e) => previous()}>
+          <div className="w-full flex justify-between space-x-4 md:space-x-10 items-center px-5 md:px-10">
+            <div
+              className="w-[40px] md:w-none cursor-pointer"
+              onClick={(e) => previous()}
+            >
               <img src={back} />
             </div>
-            <div className="relative">
-              <div className="w-[500px] max-w-[500px]">
+            <div className="relative w-4/5 max-w-4/5 md:w-[500px] md:max-w-[500px]">
+              <div className=" ">
                 <img className="" src={girl2} />
               </div>
-              <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px]">
+              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-12 md:top-16 left-6 md:left-12">
+                <p className="text-white text-md md:text-xl w-[150px]">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                  <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180 cursor-pointer" src={back} />
+                <div className="flex space-x-2 justify-center md:justify-start md:space-x-6 items-center bg-opink px-3  text-white rounded-3xl">
+                  <p className="text-xs md:text-sm">SEE MORE</p>
+                  <img
+                    className="rotate-180 cursor-pointer w-[30px] md:w-none"
+                    src={back}
+                  />
                 </div>
               </div>
             </div>
 
-            <div className="relative">
+            <div className="hidden xl:block relative">
               <div className="w-[500px] max-w-[500px]">
                 <img className="" src={girl3} />
               </div>
@@ -83,16 +89,19 @@ export const Latest = () => {
             </div>
 
             <div onClick={(e) => next()}>
-              <img className="cursor-pointer rotate-180" src={back} />
+              <img
+                className="w-[40px] md:w-none cursor-pointer rotate-180"
+                src={back}
+              />
             </div>
           </div>
 
           {/* second */}
-          <div className="w-full flex justify-between space-x-10 items-center px-10">
+          <div className="w-full flex justify-between space-x-4 md:space-x-10 items-center px-5 md:px-10">
             <div onClick={(e) => previous()}>
-              <img className="cursor-pointer" src={back} />
+              <img className="w-[40px] md:w-none cursor-pointer" src={back} />
             </div>
-            <div className="relative">
+            <div className="hidden xl:block relative">
               <div className="w-[500px] max-w-[500px]">
                 <img className="" src={girl2} />
               </div>
@@ -107,23 +116,29 @@ export const Latest = () => {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="w-[500px] max-w-[500px]">
+            <div className="relative w-4/5 max-w-4/5 md:w-[500px] md:max-w-[500px]">
+              <div className=" ">
                 <img className="" src={girl3} />
               </div>
-              <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px] text-black">
+              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-12 md:top-16 left-6 md:left-12">
+                <p className="text-white text-md md:text-xl w-[150px]">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                  <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180 cursor-pointer" src={back} />
+                <div className="flex space-x-2 justify-center md:justify-start md:space-x-6 items-center bg-opink px-3  text-white rounded-3xl">
+                  <p className="text-xs md:text-sm">SEE MORE</p>
+                  <img
+                    className="rotate-180 cursor-pointer w-[30px] md:w-none"
+                    src={back}
+                  />
                 </div>
               </div>
             </div>
 
             <div onClick={(e) => next()}>
-              <img className="rotate-180" src={back} />
+              <img
+                className="w-[40px] md:w-none cursor-pointer rotate-180"
+                src={back}
+              />
             </div>
           </div>
         </div>
