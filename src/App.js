@@ -12,7 +12,7 @@ import { Footer } from "./components/Footer";
 import { Testimonials } from "./components/Testimonials";
 function App() {
   return (
-    <div className="flex flex-col font-poppins ">
+    <div className="flex flex-col poppins ">
       <div className="">
         <Navbar />
         <IconRow />

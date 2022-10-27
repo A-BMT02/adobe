@@ -9,7 +9,7 @@ export const Search = () => {
         <img src={search} />
         <input
           placeholder="Search"
-          className="w-full outline-0  bg-ogray font-montserrat"
+          className="w-full outline-0  bg-ogray montserrat"
         />
       </div>
 

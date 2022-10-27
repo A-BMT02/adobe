@@ -64,7 +64,7 @@ export const Carousel = () => {
           <div className="absolute flex top-36 left-28 justify-between w-full px-5">
             <div className="flex space-x-10 items-center">
               <div className="flex flex-col space-y-4 ">
-                <p className="text-4xl md:text-5xl italic">60%</p>
+                <p className="text-4xl md:text-5xl lucida">60%</p>
                 <p className="text-3xl md:text-4xl max-w-[200px] font-bold">
                   Sale of the summer collection
                 </p>
@@ -94,7 +94,7 @@ export const Carousel = () => {
           <div className="absolute flex top-36 left-28 justify-between w-full px-5">
             <div className="flex space-x-10 items-center">
               <div className="flex flex-col space-y-4 ">
-                <p className="text-4xl md:text-5xl italic">60%</p>
+                <p className="text-4xl md:text-5xl lucida">60%</p>
                 <p className="text-3xl md:text-4xl max-w-[200px] font-bold">
                   Sale of the summer collection
                 </p>
