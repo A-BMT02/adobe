@@ -64,16 +64,16 @@ export const Carousel = () => {
           <div className="absolute flex top-36 left-28 justify-between w-full px-5">
             <div className="flex space-x-10 items-center">
               <div className="flex flex-col space-y-4 ">
-                <p className="text-5xl italic">60%</p>
-                <p className="text-4xl max-w-[200px] font-bold">
+                <p className="text-4xl md:text-5xl italic">60%</p>
+                <p className="text-3xl md:text-4xl max-w-[200px] font-bold">
                   Sale of the summer collection
                 </p>
                 <div className="flex space-x-6 items-center">
-                  <button className="bg-opink font-bold p-2 px-4 border rounded-lg">
+                  <button className="bg-opink font-bold p-1 md:p-2 px-4 border rounded-lg">
                     Shop Now
                   </button>
                   <div className="flex space-x-2 items-center">
-                    <img src={play} />
+                    <img className="w-[40px] md:w-none" src={play} />
                     <p>Play video</p>
                   </div>
                 </div>
@@ -94,16 +94,16 @@ export const Carousel = () => {
           <div className="absolute flex top-36 left-28 justify-between w-full px-5">
             <div className="flex space-x-10 items-center">
               <div className="flex flex-col space-y-4 ">
-                <p className="text-5xl italic">60%</p>
-                <p className="text-4xl max-w-[200px] font-bold">
+                <p className="text-4xl md:text-5xl italic">60%</p>
+                <p className="text-3xl md:text-4xl max-w-[200px] font-bold">
                   Sale of the summer collection
                 </p>
                 <div className="flex space-x-6 items-center">
-                  <button className="bg-opink font-bold p-2 px-4 border rounded-lg">
+                  <button className="bg-opink font-bold p-1 md:p-2 px-4 border rounded-lg">
                     Shop Now
                   </button>
                   <div className="flex space-x-2 items-center">
-                    <img src={play} />
+                    <img className="w-[40px] md:w-none" src={play} />
                     <p>Play video</p>
                   </div>
                 </div>
