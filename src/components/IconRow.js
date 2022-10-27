@@ -16,8 +16,8 @@ export const IconRow = () => {
       <Search />
 
       <div className="flex space-x-6 items-center pr-6 ">
-        <img className="cursor-pointer" src={heart} />
-        <img className="cursor-pointer" src={cart} />
+        <img className="hidden md:inline cursor-pointer" src={heart} />
+        <img className="hidden md:inline cursor-pointer" src={cart} />
         <div className="flex items-center space-x-1">
           <p className="text-tgray cursor-pointer">EN</p>
           <img className="w-2 h-1" src={down} />
