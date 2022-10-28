@@ -7,8 +7,10 @@ import bestQuality from "../images/bestQuality.png";
 export const Why = () => {
   return (
     <div className="flex flex-col space-y-6 items-center mt-4 xl:mt-10">
-      <div className="flex flex-col space-y-1">
-        <p className="text-2xl font-bold ">Why should you choose us?</p>
+      <div className="flex flex-col space-y-1 justify-center md:justify-start">
+        <p className="text-xl md:text-2xl font-bold ">
+          Why should you choose us?
+        </p>
         <div className="bg-opink w-[70px] h-[8px] rounded-xl "></div>
       </div>
       <div className="flex flex-col lg:flex-row justify-start  space-y-4 lg:space-y-0  space-x-0 lg:space-x-10 md:px-20 p-5 sm:p-0">

@@ -79,10 +79,10 @@ export const Category = () => {
               className=" rounded-2xl h-[200px] md:h-[350px] md:max-h-[350px] max-h-[200px] md:h-[350px] md:max-h-[350px] object-cover w-4/5 "
             />
           </div>
-          <div className="absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 flex flex-col justify-center items-center space-y-6">
-            <p className="text-white text-2xl md:text-3xl font-bold">Outwear</p>
-            <div className="cursor-pointer flex space-x-4 md:space-x-6 items-center bg-opink px-2 md:px-3 py-1 md:py-2 pl-4 md:pl-8 text-white rounded-3xl">
-              <p className="text-">SEE MORE</p>
+          <div className="absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 flex flex-col justify-center items-center space-y-4 md:space-y-6">
+            <p className="text-white text-xl md:text-2xl font-bold">Outwear</p>
+            <div className="cursor-pointer flex space-x-4 md:space-x-6 items-center bg-opink px-2 md:px-3  md:py-2 pl-2 md:pl-8 text-white rounded-3xl">
+              <p className="text-sm">SEE MORE</p>
               <img className="cursor-pointer rotate-180 w-10" src={back} />
             </div>
           </div>

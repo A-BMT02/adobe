@@ -4,7 +4,7 @@ import camera from "../images/camera.png";
 
 export const Search = () => {
   return (
-    <div className="flex justify-between text-sm border bg-bgray p-2 pt-3 pb-3 rounded-xl w-[200px] md:w-[350px]">
+    <div className="hidden md:flex justify-between text-sm border bg-bgray p-2 pt-3 pb-3 rounded-xl w-[200px] md:w-[350px]">
       <div className="flex space-x-2 w-[80%] ">
         <img src={search} />
         <input

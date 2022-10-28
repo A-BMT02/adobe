@@ -15,7 +15,7 @@ export const IconRow = () => {
       <div></div>
       <Search />
 
-      <div className="flex space-x-6 items-center pr-6 ">
+      <div className="flex space-x-4 md:space-x-6 items-center pr-6 ">
         <img className="hidden md:inline cursor-pointer" src={heart} />
         <img className="hidden md:inline cursor-pointer" src={cart} />
         <div className="flex items-center space-x-1 cursor-pointer">

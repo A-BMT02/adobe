@@ -35,21 +35,21 @@ export const Carousel = () => {
 
   return (
     <div className="relative text-white w-full overflow-hidden ">
-      <div className="px-10 z-10 absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 w-full flex justify-between">
+      <div className="px-2 md:px-10 z-10 absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 w-full flex justify-between">
         <div
           onClick={(e) => previous()}
-          className="rounded-full bg-white w-[48px] h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
+          className="rounded-full bg-white w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
         >
-          <img src={arrow} />
+          <img className="w-2 md:w-none" src={arrow} />
         </div>
         <div
           onClick={(e) => next()}
-          className="rotate-180 rounded-full bg-white w-[48px] h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
+          className="rotate-180 rounded-full bg-white  w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
         >
-          <img src={arrow} />
+          <img className="w-2 md:w-none" src={arrow} />
         </div>
       </div>
-      <div className="absolute z-50  space-y-2 top-10 right-40  flex flex-col items-center">
+      <div className="absolute z-40 space-y-2 top-10  right-16 md:right-40  flex flex-col items-center">
         <p className="text-xs">01</p>
         <div className="relative ">
           <div className="w-0.5 h-64 bg-white opacity-30"></div>
@@ -83,20 +83,20 @@ export const Carousel = () => {
             />
           </div>
 
-          <div className="absolute flex top-36 left-28  justify-between w-full px-5">
+          <div className="absolute flex top-48 md:top-36 left-10 md:left-28  justify-between w-full px-5">
             <div className="flex space-x-10 items-center">
               <div className="flex flex-col space-y-4  ">
-                <p className="text-4xl md:text-5xl lucida font-medium">60%</p>
-                <p className="text-3xl md:text-4xl max-w-[200px] font-bold md:leading-[50px]">
+                <p className="text-3xl md:text-5xl lucida font-medium">60%</p>
+                <p className="text-2xl md:text-4xl max-w-[200px] font-bold md:leading-[50px]">
                   Sale of the summer collection
                 </p>
-                <div className="flex space-x-6 items-center">
-                  <button className="bg-opink p-1 md:p-2 px-4 md:px-6 border rounded-lg cursor-pointer hover:bg-transparent hover:border hover:border-opink">
+                <div className="flex space-x-2 md:space-x-6 items-center">
+                  <button className="text-sm md:text-md bg-opink p-1 md:p-2 px-2 md:px-4 md:px-6 border rounded-lg cursor-pointer hover:bg-transparent hover:border hover:border-opink">
                     Shop Now
                   </button>
                   <div className="flex space-x-2 items-center cursor-pointer hover:border hover:rounded-lg hover:px-2">
                     <img className="w-[40px] md:w-none" src={play} />
-                    <p>Play video</p>
+                    <p className="text-sm md:text:md">Play video</p>
                   </div>
                 </div>
               </div>

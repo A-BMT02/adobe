@@ -4,7 +4,7 @@ import banner from "../images/banner.jpg";
 export const Banner = () => {
   return (
     <div className="mt-10 relative">
-      <div className="w-full max-w-full">
+      <div className="w-full max-w-full h-[] ">
         <img className="w-full max-w-full" src={banner} />
       </div>
 
@@ -15,20 +15,27 @@ export const Banner = () => {
               <p className="text-4xl text-white font-bold">-10%</p>
             </div>
 
-            <p className="text-white text-center lg:text-left lg:mt-0 w-full max-w-[400px] lg:w-3/4 lg:max-w-[350px] text-sm md:text-xl ">
+            <p className="text-white text-center lg:text-left lg:mt-0 w-full max-w-[400px] lg:w-3/4 lg:max-w-[350px] text-[10px] mt-2 md:mt-0 md:text-xl ">
               Subscribe to our newsletter and receive exclusive offers every
               week
             </p>
           </div>
-          <div className="flex space-x-4 lg:space-x-10 mr-10">
-            <div className="lg:w-[250px]">
+          <div className="flex space-x-4 lg:space-x-10 mr-10 w-full md:w-none justify-between items-center  md:justify-center  ">
+            <div className=" md:block -mt-3 md:mt-0 lg:w-[250px] ml-8 md:ml-0">
               <input
-                className="rounded-2xl px-2 md:px-6 py-1 md:py-3 w-full text-xs"
+                className="rounded-2xl px-1 md:px-6  md:py-3 w-full text-[10px]"
                 placeholder="Enter your email"
               />
             </div>
-            <div className="bg-dblue px-2 md:px-6 py-1 md:py-3  lg:w-[180px] rounded-2xl text-xs">
-              <p className="text-xs font-bold">Get your discount</p>
+            <div className="hidden md:block bg-dblue px-2 md:px-6 py-1 md:py-3  lg:w-[180px] rounded-2xl text-xs ">
+              <p className="text-[10px] md:text-xs font-bold">
+                Get your discount
+              </p>
+            </div>
+            <div className="block md:hidden bg-dblue px-2 md:px-6  md:py-3  lg:w-[180px] rounded-2xl text-xs -mt-3">
+              <p className="text-[10px] md:text-xs font-bold">
+                Get your Discount
+              </p>
             </div>
           </div>
         </div>
