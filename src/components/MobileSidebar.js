@@ -10,7 +10,6 @@ export const MobileSidebar = ({ showSidebar }) => {
       <p>Discounts</p>
       <p>Dresses</p>
       <p>Clothes</p>
-      <p>Accessories</p>
       <p>Gifts</p>
       <p>Accessories</p>
       <p>Explore more</p>

@@ -25,7 +25,7 @@ export const Why = () => {
 
         <div className="flex flex-col  lg:max-w-none space-y-4 border-2 border-opink items-center justify-center px-5 py-5 rounded-2xl">
           <img className="w-[130px]" src={moneyBack} />
-          <p className="font-bold text-xl lg:text-lg">Safe Payments</p>
+          <p className="font-bold text-xl lg:text-lg">Money-Back Gurantee</p>
           <p className="text-center text-lg text-tgray">
             If you recived a damaged item or it was out of specification, you
             can return it and get your purchasing
@@ -34,7 +34,7 @@ export const Why = () => {
 
         <div className="flex flex-col  lg:max-w-none space-y-4 border-2 border-opink items-center justify-center px-5 py-5 rounded-2xl">
           <img className="w-[130px]" src={fastShipping} />
-          <p className="font-bold text-xl lg:text-lg">Safe Payments</p>
+          <p className="font-bold text-xl lg:text-lg">Fast Shipping</p>
           <p className="text-center text-lg md:text-md text-tgray">
             We provide shipping ad dellivery service for our products to all
             countries around the world with period from 5 to 8 days
@@ -43,7 +43,7 @@ export const Why = () => {
 
         <div className="flex flex-col  lg:max-w-none space-y-4 border-2 border-opink items-center justify-center px-5 py-5 rounded-2xl">
           <img className="w-[130px]" src={bestQuality} />
-          <p className="font-bold text-xl lg:text-lg">Safe Payments</p>
+          <p className="font-bold text-xl lg:text-lg">Best Quality</p>
           <p className="text-center text-lg md:text-md text-tgray">
             Kadinle products are made to last, each of our products is made with
             the highest quality materials
