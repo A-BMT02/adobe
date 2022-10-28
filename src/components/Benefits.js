@@ -17,7 +17,7 @@ export const Benefits = () => {
       <div className="w-full flex justify-center  bg-bgray">
         <div className="flex flex-col lg:w-none lg:max-w-none space-y-12 lg:space-y-0 lg:flex-row justify-center lg:space-x-6  px-5 md:px-10 py-10">
           <div className="flex space-x-10 lg:space-x-6 items-center">
-            <img className="sm:w-[100px] lg:w-none" src={truck} />
+            <img className=" w-[20%] lg:w-none" src={truck} />
             <div className="flex flex-col space-y-2">
               <p className="font-bold sm:text-xl lg:text-base">Free Shipping</p>
               <p className="sm:text-lg lg:text-base">
@@ -27,7 +27,7 @@ export const Benefits = () => {
           </div>
 
           <div className="flex space-x-10 lg:space-x-6 items-center">
-            <img src={gift} />
+            <img className="w-[20%] lg:w-none" src={gift} />
             <div className="flex flex-col space-y-2">
               <p className="font-bold sm:text-xl lg:text-base">
                 Send your gift
@@ -39,7 +39,7 @@ export const Benefits = () => {
           </div>
 
           <div className="flex space-x-10 lg:space-x-6 items-center">
-            <img src={medal} />
+            <img className="w-[20%] lg:w-none" src={medal} />
             <div className="flex flex-col space-y-2">
               <p className="font-bold sm:text-xl lg:text-base">Your Points</p>
               <p className="sm:text-lg lg:text-base">
@@ -49,7 +49,7 @@ export const Benefits = () => {
           </div>
 
           <div className="flex space-x-10 lg:space-x-6 items-center">
-            <img src={family} />
+            <img className="w-[20%] lg:w-none" src={family} />
             <div className="flex flex-col space-y-2">
               <p className="font-bold sm:text-xl lg:text-base">
                 Kadnile family
@@ -61,7 +61,7 @@ export const Benefits = () => {
           </div>
 
           <div className="flex space-x-10 lg:space-x-6 items-center">
-            <img src={giftCard} />
+            <img className="w-[20%] lg:w-none" src={giftCard} />
             <div className="flex flex-col space-y-2">
               <p className="font-bold sm:text-xl lg:text-base">Gift Cards</p>
               <p className="sm:text-lg lg:text-base">
