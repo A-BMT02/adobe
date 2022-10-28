@@ -38,13 +38,13 @@ export const Carousel = () => {
       <div className="px-2 md:px-10 z-10 absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 w-full flex justify-between">
         <div
           onClick={(e) => previous()}
-          className="rounded-full bg-white w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
+          className="cursor-pointer rounded-full bg-white w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
         >
           <img className="w-2 md:w-none" src={arrow} />
         </div>
         <div
           onClick={(e) => next()}
-          className="rotate-180 rounded-full bg-white  w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
+          className="cursor-pointer rotate-180 rounded-full bg-white  w-[30px] h-[30px] md:w-[48px] md:h-[48px] flex items-center justify-center hover:bg-transparent hover:border hover:border-white"
         >
           <img className="w-2 md:w-none" src={arrow} />
         </div>
