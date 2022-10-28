@@ -60,7 +60,7 @@ export const Latest = () => {
                 <p className="text-white text-sm md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-2 px-2 w-fit md:w-none justify-center md:justify-start md:space-x-6 items-center bg-opink  md:px-3  text-white rounded-3xl">
+                <div className="flex space-x-2 px-2 w-fit md:w-none justify-center md:justify-start md:space-x-6 items-center bg-opink  md:px-3  text-white rounded-3xl hover:border hover:border-white hover:bg-transparent cursor-pointer py-1 md:py-2">
                   <p className="text-xs md:text-sm">SEE MORE</p>
                   <img
                     className="rotate-180 cursor-pointer w-[20px] md:w-[30px] md:w-none"
@@ -70,17 +70,20 @@ export const Latest = () => {
               </div>
             </div>
 
-            <div className="hidden xl:block relative">
-              <div className="w-[500px] max-w-[500px]">
+            <div className="hidden xl:block relative w-4/5 max-w-4/5 md:w-[500px] md:max-w-[500px]">
+              <div className=" ">
                 <img className="" src={girl3} />
               </div>
-              <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px] text-black font-light md:leading-10">
+              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-1/2 -translate-x-2/4 -translate-y-2/4 left-28  ">
+                <p className="text-white text-sm md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
-                <div className="cursor-pointer flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                  <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180 " src={back} />
+                <div className="flex space-x-2 px-2 w-fit md:w-none justify-center md:justify-start md:space-x-6 items-center bg-opink  md:px-3  text-white rounded-3xl  hover:border hover:border-white hover:bg-transparent cursor-pointer py-1 md:py-2">
+                  <p className="text-xs md:text-sm">SEE MORE</p>
+                  <img
+                    className="rotate-180 cursor-pointer w-[20px] md:w-[30px] md:w-none"
+                    src={back}
+                  />
                 </div>
               </div>
             </div>
@@ -101,17 +104,20 @@ export const Latest = () => {
             >
               <img className="w-2 md:w-none" src={arrow} />
             </div>
-            <div className="hidden xl:block relative">
-              <div className="w-[500px] max-w-[500px]">
+            <div className="hidden xl:block relative w-4/5 max-w-4/5 md:w-[500px] md:max-w-[500px]">
+              <div className=" ">
                 <img className="" src={girl2} />
               </div>
-              <div className="absolute flex flex-col space-y-10 top-16 left-12">
-                <p className="text-white text-xl w-[150px] font-light md:leading-10">
+              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-1/2 -translate-x-2/4 -translate-y-2/4 left-28  ">
+                <p className="text-white text-sm md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-6 items-center bg-opink px-3 py- text-white rounded-3xl">
-                  <p className="text-sm">SEE MORE</p>
-                  <img className="rotate-180 cursor-pointer" src={back} />
+                <div className="flex space-x-2 px-2 w-fit md:w-none justify-center md:justify-start md:space-x-6 items-center bg-opink  md:px-3  text-white rounded-3xl  hover:border hover:border-white hover:bg-transparent cursor-pointer py-1 md:py-2">
+                  <p className="text-xs md:text-sm">SEE MORE</p>
+                  <img
+                    className="rotate-180 cursor-pointer w-[20px] md:w-[30px] md:w-none"
+                    src={back}
+                  />
                 </div>
               </div>
             </div>
@@ -120,14 +126,14 @@ export const Latest = () => {
               <div className=" ">
                 <img className="" src={girl3} />
               </div>
-              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-1/2 -translate-x-2/4 -translate-y-2/4 left-28">
-                <p className="text-white text-md md:text-xl w-[150px] font-light md:leading-10">
+              <div className="absolute flex flex-col space-y-4 md:space-y-10 top-1/2 -translate-x-2/4 -translate-y-2/4 left-28  ">
+                <p className="text-white text-sm md:text-xl w-[150px] font-light md:leading-10">
                   For all your summer clothing needs
                 </p>
-                <div className="flex space-x-2 justify-center md:justify-start md:space-x-6 items-center bg-opink px-3  text-white rounded-3xl">
+                <div className="flex space-x-2 px-2 w-fit md:w-none justify-center md:justify-start md:space-x-6 items-center bg-opink  md:px-3  text-white rounded-3xl  hover:border hover:border-white hover:bg-transparent cursor-pointer py-1 md:py-2">
                   <p className="text-xs md:text-sm">SEE MORE</p>
                   <img
-                    className="rotate-180 cursor-pointer w-[30px] md:w-none"
+                    className="rotate-180 cursor-pointer w-[20px] md:w-[30px] md:w-none"
                     src={back}
                   />
                 </div>

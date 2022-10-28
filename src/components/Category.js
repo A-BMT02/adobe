@@ -82,7 +82,7 @@ export const Category = () => {
           </div>
           <div className="absolute top-1/2 -translate-x-2/4 -translate-y-2/4 left-1/2 flex flex-col justify-center items-center space-y-4 md:space-y-6">
             <p className="text-white text-xl md:text-2xl font-bold">Outwear</p>
-            <div className="cursor-pointer flex space-x-2 py-1   items-center bg-opink px-2 md:px-3  md:py-2 text-white rounded-3xl justify-center hover:border hover:bg-transparent">
+            <div className="cursor-pointer flex space-x-2 py-1  items-center bg-opink px-2 md:px-4  md:py-3 text-white rounded-3xl justify-center hover:border hover:bg-transparent">
               <p className="text-sm">SEE MORE</p>
               <img className="cursor-pointer rotate-180 w-3" src={arrow} />
             </div>
