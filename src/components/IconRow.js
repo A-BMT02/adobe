@@ -11,7 +11,10 @@ export const IconRow = () => {
 
   return (
     <div className="flex justify-between pt-4 pb-4">
-      <MobileSidebar showSidebar={showSidebar} />
+      <MobileSidebar
+        showSidebar={showSidebar}
+        setShowSidebar={setShowSidebar}
+      />
       <div></div>
       <Search />
 
