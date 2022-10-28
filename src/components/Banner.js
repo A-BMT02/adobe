@@ -27,15 +27,15 @@ export const Banner = () => {
                 placeholder="Enter your email"
               />
             </div>
-            <div className="hidden md:block bg-dblue px-2 md:px-6 py-1 md:py-3  lg:w-[180px] rounded-2xl text-xs ">
-              <p className="text-[10px] md:text-xs font-bold">
+            <div className="hidden md:block bg-dblue px-2 md:px-6 py-1 md:py-3  lg:w-[180px] rounded-2xl text-xs hover:text-dblue hover:bg-transparent hover:border hover:border-white ">
+              <button className="text-[10px] md:text-xs font-bold">
                 Get your discount
-              </p>
+              </button>
             </div>
-            <div className="block md:hidden bg-dblue px-2 md:px-6  md:py-3  lg:w-[180px] rounded-2xl text-xs -mt-3">
-              <p className="text-[10px] md:text-xs font-bold">
+            <div className="block md:hidden bg-dblue px-2 md:px-6  md:py-3  lg:w-[180px] rounded-2xl text-xs -mt-3 hover:text-dblue hover:bg-transparent hover:border hover:border-white">
+              <button className="text-[10px] md:text-xs font-bold">
                 Get your Discount
-              </p>
+              </button>
             </div>
           </div>
         </div>
