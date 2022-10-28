@@ -1,7 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import back from "../images/back.png";
 import girl2 from "../images/girl2.png";
 import girl3 from "../images/girl3.png";
+import arrow from "../images/whiteArrow.png";
 
 export const Latest = () => {
   const [target, setTarget] = useState(0);
@@ -13,7 +14,6 @@ export const Latest = () => {
     } else {
       setTarget(1);
     }
-    translate(target);
     return;
   };
 
@@ -23,17 +23,14 @@ export const Latest = () => {
     } else {
       setTarget(0);
     }
-    translate(target);
     return;
   };
 
-  const translate = (num) => {
-    const percent = 50 * num;
+  useEffect(() => {
+    const percent = 50 * target;
     ref.current.style.transform = `translateX(-${percent}%)`;
-    // ref.current.style.transform = `translateX(-100%)`;
+  }, [target]);
 
-    return;
-  };
   return (
     <div className="flex flex-col space-y-6 items-center mt-10">
       <div className="flex flex-col space-y-1">
@@ -50,10 +47,10 @@ export const Latest = () => {
           {/* first */}
           <div className="w-full flex justify-between space-x-4 md:space-x-10 items-center px-5 md:px-10">
             <div
-              className="w-[40px] md:w-none cursor-pointer"
               onClick={(e) => previous()}
+              className="cursor-pointer rounded-full bg-opink w-[48px] h-[48px] flex items-center justify-center hover:border hover:border-white"
             >
-              <img src={back} />
+              <img src={arrow} />
             </div>
             <div className="relative w-4/5 max-w-4/5 md:w-[500px] md:max-w-[500px]">
               <div className=" ">
@@ -88,18 +85,21 @@ export const Latest = () => {
               </div>
             </div>
 
-            <div onClick={(e) => next()}>
-              <img
-                className="w-[40px] md:w-none cursor-pointer rotate-180"
-                src={back}
-              />
+            <div
+              onClick={(e) => next()}
+              className=" cursor-pointer rotate-180 rounded-full bg-opink w-[48px] h-[48px] flex items-center justify-center hover:border hover:border-white"
+            >
+              <img src={arrow} />
             </div>
           </div>
 
           {/* second */}
           <div className="w-full flex justify-between space-x-4 md:space-x-10 items-center px-5 md:px-10">
-            <div onClick={(e) => previous()}>
-              <img className="w-[40px] md:w-none cursor-pointer" src={back} />
+            <div
+              onClick={(e) => previous()}
+              className="cursor-pointer rounded-full bg-opink w-[48px] h-[48px] flex items-center justify-center hover:border hover:border-white"
+            >
+              <img src={arrow} />
             </div>
             <div className="hidden xl:block relative">
               <div className="w-[500px] max-w-[500px]">
@@ -134,11 +134,11 @@ export const Latest = () => {
               </div>
             </div>
 
-            <div onClick={(e) => next()}>
-              <img
-                className="w-[40px] md:w-none cursor-pointer rotate-180"
-                src={back}
-              />
+            <div
+              onClick={(e) => next()}
+              className=" cursor-pointer rotate-180 rounded-full bg-opink w-[48px] h-[48px] flex items-center justify-center hover:border hover:border-white"
+            >
+              <img src={arrow} />
             </div>
           </div>
         </div>

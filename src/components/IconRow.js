@@ -18,12 +18,12 @@ export const IconRow = () => {
       <div className="flex space-x-6 items-center pr-6 ">
         <img className="hidden md:inline cursor-pointer" src={heart} />
         <img className="hidden md:inline cursor-pointer" src={cart} />
-        <div className="flex items-center space-x-1">
-          <p className=" cursor-pointer">EN</p>
+        <div className="flex items-center space-x-1 cursor-pointer">
+          <p className=" ">EN</p>
           <img className="w-2 h-1" src={down} />
         </div>
-        <div className="flex items-center space-x-1">
-          <p className=" cursor-pointer">UAE</p>
+        <div className="flex items-center space-x-1 cursor-pointer">
+          <p className=" ">UAE</p>
           <img className="cursor-pointer" src={down} />
         </div>
         {!showSidebar ? (

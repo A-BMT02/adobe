@@ -17,3 +17,8 @@
 .lucida {
     font-family: 'Lucida Handwriting Std', sans-serif;
 }
+
+.overlay {
+    background-color: #4d1b37;
+    opacity: 0.278;
+}

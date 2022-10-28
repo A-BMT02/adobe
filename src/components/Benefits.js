@@ -7,10 +7,10 @@ import giftCard from "../images/giftCard.png";
 
 export const Benefits = () => {
   return (
-    <div className="flex flex-col space-y-6 items-center mt-4">
+    <div className="flex flex-col space-y-6 items-center mt-4 xl:mt-10">
       <div className="flex flex-col space-y-1">
         <p className="text-2xl font-bold ">Many benefits are waiting for you</p>
-        <div className="bg-opink w-[70px] h-[8px] rounded-xl "></div>
+        <div className="bg-opink w-[80px] h-[8px] rounded-xl "></div>
       </div>
 
       <div className="flex flex-col w-full lg:w-none lg:max-w-none space-y-12 lg:space-y-0 lg:flex-row justify-center lg:space-x-10 items-center px-5 md:px-10 bg-bgray py-10">
@@ -29,7 +29,7 @@ export const Benefits = () => {
           <div className="flex flex-col space-y-2">
             <p className="font-bold sm:text-xl lg:text-base">Free Shipping</p>
             <p className="sm:text-lg lg:text-base">
-              When purchasing with $5000 or more
+              The best gift you can give to your loved one
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export const Benefits = () => {
           <div className="flex flex-col space-y-2">
             <p className="font-bold sm:text-xl lg:text-base">Free Shipping</p>
             <p className="sm:text-lg lg:text-base">
-              When purchasing with $5000 or more
+              Earn points and shop for free
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export const Benefits = () => {
           <div className="flex flex-col space-y-2">
             <p className="font-bold sm:text-xl lg:text-base">Free Shipping</p>
             <p className="sm:text-lg lg:text-base">
-              When purchasing with $5000 or more
+              Exclusive benefits when you join
             </p>
           </div>
         </div>

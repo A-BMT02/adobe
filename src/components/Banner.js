@@ -15,7 +15,7 @@ export const Banner = () => {
               <p className="text-4xl text-white font-bold">-10%</p>
             </div>
 
-            <p className="text-white text-center lg:text-left lg:mt-0 w-full max-w-[400px] lg:w-3/4 lg:max-w-[350px] text-sm md:text-2xl ">
+            <p className="text-white text-center lg:text-left lg:mt-0 w-full max-w-[400px] lg:w-3/4 lg:max-w-[350px] text-sm md:text-xl ">
               Subscribe to our newsletter and receive exclusive offers every
               week
             </p>

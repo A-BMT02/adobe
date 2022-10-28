@@ -70,8 +70,9 @@ export const Footer = () => {
       </div>
 
       <div className="flex justify-center space-x-4 bg-black w-full p-2">
-        <p className="text-gray-500 text-xs md:text-sm">
-          <span className="text-opink">STORE</span> © 2022 - DESIGNED BY{" "}
+        <p className="text-tgray text-xs md:text-sm">
+          <span className="text-opink">STORE</span> ©{" "}
+          <span className="text-white">2022</span> - DESIGNED BY{" "}
           <span className="text-dblue">WHY NOT!</span> LL RIGHTS RESERVED.
         </p>
       </div>
