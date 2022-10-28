@@ -19,11 +19,11 @@ export const Footer = () => {
           <div className="flex flex-col space-y-2">
             <p className="text-opink">Follow us on</p>
             <div className="flex space-x-4 items-center">
-              <img src={facebook} />
-              <img src={twitter} />
-              <img src={tiktok} />
-              <img src={instagram} />
-              <img src={youtube} />
+              <img className="cursor-pointer" src={facebook} />
+              <img className="cursor-pointer" src={twitter} />
+              <img className="cursor-pointer" src={tiktok} />
+              <img className="cursor-pointer" src={instagram} />
+              <img className="cursor-pointer" src={youtube} />
             </div>
           </div>
         </div>
@@ -31,41 +31,57 @@ export const Footer = () => {
         <div className="flex flex-col space-y-4">
           <p className="text-opink text-sm">Public policies</p>
           <div className="flex flex-col space-y-2">
-            <p>About</p>
-            <p>Privacy policy</p>
-            <p>Exchange and Return Policy</p>
-            <p>Shipping Policy</p>
-            <p>Terms of use</p>
+            <p className="cursor-pointer hover:text-opink hover:text-opink">
+              About
+            </p>
+            <p className="cursor-pointer hover:text-opink">Privacy policy</p>
+            <p className="cursor-pointer hover:text-opink">
+              Exchange and Return Policy
+            </p>
+            <p className="cursor-pointer hover:text-opink">Shipping Policy</p>
+            <p className="cursor-pointer hover:text-opink">Terms of use</p>
           </div>
         </div>
 
         <div className="flex flex-col space-y-4">
           <p className="text-opink text-sm">Customer Service Center</p>
           <div className="flex flex-col space-y-2">
-            <p>How to buy</p>
-            <p>Track your order</p>
-            <p>retrieval mechanism</p>
-            <p>Shipping information</p>
-            <p>Size guide</p>
-            <p>Common questions</p>
-            <p>Contact Us</p>
+            <p className="cursor-pointer hover:text-opink">How to buy</p>
+            <p className="cursor-pointer hover:text-opink">Track your order</p>
+            <p className="cursor-pointer hover:text-opink">
+              Retrieval mechanism
+            </p>
+            <p className="cursor-pointer hover:text-opink">
+              Shipping information
+            </p>
+            <p className="cursor-pointer hover:text-opink">Size guide</p>
+            <p className="cursor-pointer hover:text-opink">Common questions</p>
+            <p className="cursor-pointer hover:text-opink">Contact Us</p>
           </div>
         </div>
 
         <div className="flex flex-col space-y-4">
           <p className="text-opink text-sm">Kadinle Family</p>
           <div className="flex flex-col space-y-2">
-            <p>Join Us</p>
-            <p>Be our agent</p>
-            <p>Wholesale</p>
-            <p>Authorized Distrubutors</p>
-            <p>Our franchise</p>
+            <p className="cursor-pointer hover:text-opink">Join Us</p>
+            <p className="cursor-pointer hover:text-opink">Be our agent</p>
+            <p className="cursor-pointer hover:text-opink">Wholesale</p>
+            <p className="cursor-pointer hover:text-opink">
+              Authorized Distrubutors
+            </p>
+            <p className="cursor-pointer hover:text-opink">Our franchise</p>
           </div>
         </div>
 
         <div className="flex flex-row md:flex-col space-y-0 space-x-3 md:space-x-0 md:space-y-10 items-center justify-center pb-6 md:p-0">
-          <img className="w-[120px] md:w-none" src={googlePlay} />
-          <img className="w-[120px] md:w-none" src={appStore} />
+          <img
+            className="w-[120px] md:w-none cursor-pointer"
+            src={googlePlay}
+          />
+          <img
+            className="w-[120px] md:w-none hover:text-opink cursor-pointer"
+            src={appStore}
+          />
         </div>
       </div>
 
