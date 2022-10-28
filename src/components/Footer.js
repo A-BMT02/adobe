@@ -10,7 +10,7 @@ import appStore from "../images/appStore.png";
 export const Footer = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="bg-fgray flex flex-col w-full md:flex-row justify-around pl-10 lg:p-20 text-xs space-x-0 md:space-x-4 lg:space-x-20 space-y-6 md:space-y-0  ">
+      <div className="bg-fgray flex flex-col items-center lg:items-start w-full md:flex-row justify-around  md:p-5 lg:p-20 text-xs space-x-0 md:space-x-4 lg:space-x-20 space-y-6 md:space-y-0  ">
         <div className="hidden md:flex flex-col space-y-10 justify-center">
           <p className="text-[#808080]">
             House My Brand designs clothing for the young, the old & everyone in
@@ -28,7 +28,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 w-[150px] md:w-none">
           <p className="text-opink text-sm">Public policies</p>
           <div className="flex flex-col space-y-2">
             <p className="cursor-pointer hover:text-opink hover:text-opink">
@@ -43,7 +43,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 w-[150px] md:w-none">
           <p className="text-opink text-sm">Customer Service Center</p>
           <div className="flex flex-col space-y-2">
             <p className="cursor-pointer hover:text-opink">How to buy</p>
@@ -60,7 +60,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 w-[150px] md:w-none">
           <p className="text-opink text-sm">Kadinle Family</p>
           <div className="flex flex-col space-y-2">
             <p className="cursor-pointer hover:text-opink">Join Us</p>
@@ -85,11 +85,21 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center space-x-4 bg-black w-full p-2">
+      <div className="hidden md:flex justify-center space-x-4 bg-black w-full p-2">
         <p className="text-tgray text-xs md:text-sm">
           <span className="text-opink">STORE</span> ©{" "}
           <span className="text-white">2022</span> - DESIGNED BY{" "}
           <span className="text-dblue">WHY NOT!</span> LL RIGHTS RESERVED.
+        </p>
+      </div>
+      <div className="block md:hidden flex flex-col items-center space-y-2 bg-black w-full p-2">
+        <p className="text-tgray text-xs md:text-sm ">
+          <span className="text-opink">STORE</span> ©{" "}
+          <span className="text-white">2022</span>
+        </p>
+        <p className="text-tgray text-xs md:text-sm ">
+          DESIGNED BY <span className="text-dblue">WHY NOT!</span> LL RIGHTS
+          RESERVED.
         </p>
       </div>
     </div>
